@@ -1,8 +1,11 @@
+import Header from "./components/Header.jsx";
+import MovieList from "./components/MovieList.jsx";
+
 function App() {
   return (
     <main>
-      <h1>CinemaClub</h1>
-      <p>קטלוג הסרטים שלנו</p>
+      <Header />
+      <MovieList />
     </main>
   );
 }
